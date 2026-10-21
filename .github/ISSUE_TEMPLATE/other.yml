@@ -1,10 +1,13 @@
 name: Other
 description: Feedback that is not a bug report or a feature request.
 title: "[Other] "
+labels: ["question"]
 body:
   - type: markdown
     attributes:
       value: |
+        **Contact:** support@skoft.app (for private matters and security issues, email us instead of opening a public issue).
+
         Have a question about using Skoft Files? It fits best in [Discussions](https://github.com/KiNgReX90/Skoft_Files_Community/discussions).
 
         Never include passwords, personal data or private file paths. For private matters, email support@skoft.app.
