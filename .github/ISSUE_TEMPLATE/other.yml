@@ -1,0 +1,13 @@
+name: Other
+description: Feedback that is not a bug or a feature request.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? Please use Discussions instead. For private matters, email support@skoft.app.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+    validations:
+      required: true
