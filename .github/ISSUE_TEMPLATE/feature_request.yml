@@ -1,25 +1,40 @@
 name: Feature request
 description: Suggest an idea or improvement for Skoft Files.
-title: "[Feature]: "
+title: "[Feature] "
 labels: ["enhancement"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your suggestion. Please search the existing issues first. If a similar request exists, add a 👍 reaction or a comment there instead.
   - type: textarea
     id: problem
     attributes:
-      label: What would you like to do?
-      description: Describe the problem or situation this would help with.
+      label: What problem would this solve?
+      description: Describe the problem or situation, not the solution.
     validations:
       required: true
   - type: textarea
-    id: solution
+    id: desired-behaviour
     attributes:
-      label: Your idea
-      description: How would you like it to work?
+      label: How would you like it to work?
+      description: Describe the behaviour you have in mind.
     validations:
-      required: false
+      required: true
   - type: textarea
-    id: alternatives
+    id: workaround
     attributes:
       label: How do you handle this now?
+      description: Optional. Any workaround you currently use.
+    validations:
+      required: false
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is this to you?
+      options:
+        - Nice to have
+        - Important for my work
+        - I cannot do my work without it
     validations:
       required: false
