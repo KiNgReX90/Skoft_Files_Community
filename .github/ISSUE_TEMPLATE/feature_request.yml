@@ -6,6 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        **Contact:** support@skoft.app (for private matters and security issues, email us instead of opening a public issue).
+
         Thanks for your suggestion. Please search the existing issues first. If a similar request exists, add a 👍 reaction or a comment there instead.
   - type: textarea
     id: problem
