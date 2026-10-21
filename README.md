@@ -1,22 +1,40 @@
 # Skoft Files Community
 
-The public place for feedback, bug reports and updates for Skoft Files, made by Skoft Software.
+This is the public place to report bugs, suggest features and follow updates for Skoft Files, the desktop app by Skoft Software.
 
 Website: [skoft.app](https://skoft.app)
 
-## How to report something
+## What this repo is
 
-- **Bug:** open an issue and choose *Bug report*.
-- **Idea or improvement:** open an issue and choose *Feature request*.
-- **Question:** start a topic in [Discussions](https://github.com/KiNgReX90/Skoft_Files_Community/discussions).
-- **Something else:** open an issue and choose *Other*.
+This repository holds the issue tracker and the changelog for Skoft Files. It does not contain the source code of the app.
 
-Please search existing issues and discussions first, and never post passwords, personal data or private file paths.
+## Report a bug
 
-## Private contact
+1. Search the [existing issues](https://github.com/KiNgReX90/Skoft_Files_Community/issues?q=is%3Aissue) to see if the problem has already been reported.
+2. If not, [open a new issue](https://github.com/KiNgReX90/Skoft_Files_Community/issues/new/choose) and choose **Bug report**.
+3. Describe one problem per issue, with the steps to reproduce it and your Skoft Files version.
 
-For anything you would rather not share publicly, email [support@skoft.app](mailto:support@skoft.app).
+Never post passwords, personal data or private file paths. Remove anything private from screenshots and logs before you upload them.
 
-## Updates
+## Request a feature
 
-Changes are listed in [CHANGELOG.md](CHANGELOG.md) and under Releases.
+[Open a new issue](https://github.com/KiNgReX90/Skoft_Files_Community/issues/new/choose) and choose **Feature request**. Describe the problem you want to solve, not just the solution you have in mind. If a similar request already exists, add a 👍 reaction or a comment to it instead of opening a new one.
+
+## Questions
+
+Questions about using Skoft Files fit best in [Discussions](https://github.com/KiNgReX90/Skoft_Files_Community/discussions). Search there first; your question may already have an answer.
+
+## Follow updates
+
+- Changes to Skoft Files are listed in [CHANGELOG.md](CHANGELOG.md), newest first.
+- Released versions are also published under [Releases](https://github.com/KiNgReX90/Skoft_Files_Community/releases).
+- To get notified, click **Watch** at the top of this page, choose **Custom**, tick **Releases** and click **Apply**.
+
+## Private matters and security
+
+- For anything you would rather not share publicly, email [support@skoft.app](mailto:support@skoft.app).
+- Please do not report security issues in public issues. See [SECURITY.md](SECURITY.md) for how to report them privately.
+
+## Website
+
+More about Skoft Software and Skoft Files: [skoft.app](https://skoft.app)
