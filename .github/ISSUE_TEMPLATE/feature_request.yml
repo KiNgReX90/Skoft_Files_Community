@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest an idea or improvement for Skoft Files.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe the problem or situation this would help with.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Your idea
+      description: How would you like it to work?
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle this now?
+    validations:
+      required: false
