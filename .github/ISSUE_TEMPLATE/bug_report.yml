@@ -1,35 +1,73 @@
 name: Bug report
 description: Something in Skoft Files does not work as expected.
-title: "[Bug]: "
+title: "[Bug] "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting. Please do not include passwords, personal data or private file paths. For private matters, email support@skoft.app.
-  - type: textarea
-    id: what-happened
+        Thanks for taking the time to report a bug. Please fill in the form below as completely as you can.
+
+        Never include passwords, personal data or private file paths. For private matters or security issues, email support@skoft.app instead of opening a public issue.
+  - type: checkboxes
+    id: preflight
     attributes:
-      label: What happened?
-      description: Describe the problem and what you expected instead.
+      label: Before you submit
+      options:
+        - label: I searched the existing issues and this bug has not been reported yet.
+          required: true
+        - label: This issue describes one problem.
+          required: true
+        - label: I removed passwords, personal data and private file paths from this report, including screenshots and logs.
+          required: true
+  - type: textarea
+    id: what-happens
+    attributes:
+      label: What happens?
+      description: Describe what goes wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
       label: Steps to reproduce
+      description: List the exact steps that lead to the problem.
       placeholder: |
-        1. ...
-        2. ...
-        3. ...
+        1. Open Skoft Files
+        2. Click on ...
+        3. See the problem
     validations:
       required: true
+  - type: dropdown
+    id: regression
+    attributes:
+      label: Did this work in an earlier version?
+      options:
+        - "Yes"
+        - "No"
+        - "Not sure"
+    validations:
+      required: true
+  - type: input
+    id: last-working-version
+    attributes:
+      label: Last working version
+      description: If this worked before, which Skoft Files version was the last one where it worked?
+    validations:
+      required: false
   - type: input
     id: version
     attributes:
       label: Skoft Files version
+      description: The version of Skoft Files you are using.
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: os
     attributes:
@@ -40,11 +78,19 @@ body:
         - Linux
         - Other
     validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error message or log
+      description: Paste any error message or log output. It will be formatted as text automatically. Remove anything private first.
+      render: text
+    validations:
       required: false
   - type: textarea
-    id: extra
+    id: screenshots
     attributes:
-      label: Screenshots or extra information
-      description: Optional. Remove anything private before uploading.
+      label: Screenshots
+      description: Optional. Drag images here. Make sure they show nothing private.
     validations:
       required: false
