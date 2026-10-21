@@ -3,6 +3,9 @@ contact_links:
   - name: Questions
     url: https://github.com/KiNgReX90/Skoft_Files_Community/discussions
     about: Ask and answer questions about Skoft Files in Discussions.
-  - name: Private support
+  - name: Private support and security
     url: mailto:support@skoft.app
-    about: For anything you would rather not share publicly.
+    about: For private matters and security issues. Please do not report these in public issues.
+  - name: Website
+    url: https://skoft.app
+    about: More about Skoft Software and Skoft Files.
