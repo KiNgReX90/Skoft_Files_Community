@@ -6,6 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        **Contact:** support@skoft.app (for private matters and security issues, email us instead of opening a public issue).
+
         Thanks for taking the time to report a bug. Please fill in the form below as completely as you can.
 
         Never include passwords, personal data or private file paths. For private matters or security issues, email support@skoft.app instead of opening a public issue.
