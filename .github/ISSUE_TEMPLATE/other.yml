@@ -1,10 +1,13 @@
 name: Other
-description: Feedback that is not a bug or a feature request.
+description: Feedback that is not a bug report or a feature request.
+title: "[Other] "
 body:
   - type: markdown
     attributes:
       value: |
-        Have a question? Please use Discussions instead. For private matters, email support@skoft.app.
+        Have a question about using Skoft Files? It fits best in [Discussions](https://github.com/KiNgReX90/Skoft_Files_Community/discussions).
+
+        Never include passwords, personal data or private file paths. For private matters, email support@skoft.app.
   - type: textarea
     id: feedback
     attributes:
