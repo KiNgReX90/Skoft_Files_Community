@@ -1,7 +1,7 @@
 name: Feature request
 description: Suggest an idea or improvement for Skoft Files.
 title: "[Feature] "
-labels: ["enhancement"]
+labels: ["idea"]
 body:
   - type: markdown
     attributes:

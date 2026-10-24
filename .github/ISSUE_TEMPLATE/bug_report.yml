@@ -1,7 +1,7 @@
 name: Bug report
 description: Something in Skoft Files does not work as expected.
 title: "[Bug] "
-labels: ["bug"]
+labels: ["problem"]
 body:
   - type: markdown
     attributes:
