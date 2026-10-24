@@ -11,18 +11,18 @@ This repository holds the issue tracker and the changelog for Skoft Files. It do
 ## Report a bug
 
 1. Search the [existing issues](https://github.com/KiNgReX90/Skoft_Files_Community/issues?q=is%3Aissue) to see if the problem has already been reported.
-2. If not, [open a new issue](https://github.com/KiNgReX90/Skoft_Files_Community/issues/new/choose) and choose **Bug report**.
+2. If not, [open a new issue](https://github.com/KiNgReX90/Skoft_Files_Community/issues/new/choose) and choose **Problem**.
 3. Describe one problem per issue, with the steps to reproduce it and your Skoft Files version.
 
 Never post passwords, personal data or private file paths. Remove anything private from screenshots and logs before you upload them.
 
 ## Request a feature
 
-[Open a new issue](https://github.com/KiNgReX90/Skoft_Files_Community/issues/new/choose) and choose **Feature request**. Describe the problem you want to solve, not just the solution you have in mind. If a similar request already exists, add a 👍 reaction or a comment to it instead of opening a new one.
+[Open a new issue](https://github.com/KiNgReX90/Skoft_Files_Community/issues/new/choose) and choose **Idea**. Describe the problem you want to solve, not just the solution you have in mind. If a similar request already exists, add a 👍 reaction or a comment to it instead of opening a new one.
 
 ## Questions
 
-Questions about using Skoft Files fit best in [Discussions](https://github.com/KiNgReX90/Skoft_Files_Community/discussions). Search there first; your question may already have an answer.
+Questions about using Skoft Files: search the [existing issues](https://github.com/KiNgReX90/Skoft_Files_Community/issues?q=is%3Aissue) first; your question may already have an answer. If not, [open a new issue](https://github.com/KiNgReX90/Skoft_Files_Community/issues/new/choose) and choose **Other**.
 
 ## Follow updates
 
