@@ -1,6 +1,6 @@
-name: Bug report
+name: Problem
 description: Something in Skoft Files does not work as expected.
-title: "[Bug] "
+title: "[Problem] "
 labels: ["problem"]
 body:
   - type: markdown
