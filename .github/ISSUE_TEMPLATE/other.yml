@@ -1,5 +1,5 @@
 name: Other
-description: Feedback that is not a bug report or a feature request.
+description: Feedback that is not a problem or an idea.
 title: "[Other] "
 labels: ["idea"]
 body:
